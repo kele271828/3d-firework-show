@@ -1,0 +1,318 @@
+{
+    "firework": [
+        [0.0, [
+            {
+                "type": "launch_to",
+                "pos": [0, 0, 75],
+                "time": 3,
+                "color": [0.8, 0.8, 1],
+                "size": 0.7,
+                "trace": 0,
+                "tail": {"count": 50, "velocity": 5, "color": [0.8, 0.8, 1], "time": 800},
+                "strategy": "standard_rc"
+            }
+        ]],
+        [3.8, [
+            {
+                "type": "launch_to",
+                "repeat": 15,
+                "pos": {"min": [-40, -40, 60], "max": [40, 40, 90]},
+                "time": {"min": 2.5, "max": 4.5},
+                "color": "random",
+                "size": 0.5,
+                "tail": {"count": 20, "velocity": 5, "color": "random", "time": 800},
+                "strategy": "standard"
+            }
+        ]],
+        [8.8, [
+            {
+                "type": "launch_to",
+                "repeat": 10,
+                "pos": {"min": [-60, -60, 60], "max": [60, 60, 90]},
+                "time": {"min": 3.5, "max": 6.5},
+                "color": "random",
+                "size": 0.5,
+                "tail": {"count": 20, "velocity": 5, "color": "random", "time": 800},
+                "strategy": "standard"
+            }
+        ]],
+        [10.0, [
+            {
+                "type": "launch_to", "pos": [-15, -15, 80], "time": 2, "color": [1, 1, 0.2], "size": 0.6, "trace": 10,
+                "tail": {"count": 50, "velocity": 5, "color": [1, 1, 0], "time": 800},
+                "strategy": {"name": "text_shape_3d", "args": ["2"]}
+            },
+            {
+                "type": "launch_to", "pos": [-5, -5, 80], "time": 2, "color": [1, 1, 0.2], "size": 0.6, "trace": 10,
+                "tail": {"count": 50, "velocity": 5, "color": [1, 1, 0], "time": 800},
+                "strategy": {"name": "text_shape_3d", "args": ["0"]}
+            },
+            {
+                "type": "launch_to", "pos": [5, 5, 80], "time": 2, "color": [1, 1, 0.2], "size": 0.6, "trace": 10,
+                "tail": {"count": 50, "velocity": 5, "color": [1, 1, 0], "time": 800},
+                "strategy": {"name": "text_shape_3d", "args": ["2"]}
+            },
+            {
+                "type": "launch_to", "pos": [15, 15, 80], "time": 2, "color": [1, 1, 0.2], "size": 0.6, "trace": 10,
+                "tail": {"count": 50, "velocity": 5, "color": [1, 1, 0], "time": 800},
+                "strategy": {"name": "text_shape_3d", "args": ["5"]}
+            }
+        ]],
+        [15.9, [
+            {
+                "type": "launch_to",
+                "repeat": 15,
+                "pos": {"min": [-60, -60, 70], "max": [60, 60, 90]},
+                "time": {"min": 2.5, "max": 6.5},
+                "color": "random",
+                "size": 0.5,
+                "tail": {"count": 20, "velocity": 5, "color": "random", "time": 800},
+                "strategy": "standard"
+            }
+        ]],
+        [17.0, [
+            {
+                "type": "launch_to", "pos": [-15, -15, 110], "time": 2, "color": [1, 1, 0.2], "size": 0.6, "trace": 10,
+                "tail": {"count": 50, "velocity": 5, "color": [1, 1, 0], "time": 800},
+                "strategy": {"name": "text_shape_3d", "args": ["2-2"]}
+            },
+            {
+                "type": "launch_to", "pos": [-5, -5, 110], "time": 2, "color": [1, 1, 0.2], "size": 0.6, "trace": 10,
+                "tail": {"count": 50, "velocity": 5, "color": [1, 1, 0], "time": 800},
+                "strategy": {"name": "text_shape_3d", "args": ["0-0"]}
+            },
+            {
+                "type": "launch_to", "pos": [5, 5, 110], "time": 2, "color": [1, 1, 0.2], "size": 0.6, "trace": 10,
+                "tail": {"count": 50, "velocity": 5, "color": [1, 1, 0], "time": 800},
+                "strategy": {"name": "text_shape_3d", "args": ["2-2"]}
+            },
+            {
+                "type": "launch_to", "pos": [15, 15, 110], "time": 2, "color": [1, 1, 0.2], "size": 0.6, "trace": 10,
+                "tail": {"count": 50, "velocity": 5, "color": [1, 1, 0], "time": 800},
+                "strategy": {"name": "text_shape_3d", "args": ["5-6"]}
+            }
+        ]],
+        [22.9, [
+            {
+                "type": "launch_to",
+                "repeat": 15,
+                "pos": {"min": [-60, -60, 70], "max": [60, 60, 90]},
+                "time": {"min": 2.5, "max": 6.5},
+                "color": "random",
+                "size": 0.5,
+                "tail": {"count": 20, "velocity": 5, "color": "random", "time": 800},
+                "strategy": "standard"
+            }
+        ]],
+        [24.0, [
+            {
+                "type": "launch_to", "pos": [-30, -30, 80], "time": 2.5, "color": [0.6, 0.6, 1], "size": 0.6, "trace": 10,
+                "strategy": {"name": "text_shape_3d", "args": ["祝-祝"]}
+            },
+            {
+                "type": "launch_to", "pos": [-15, -15, 80], "time": 2, "color": [1, 1, 0.2], "size": 0.6, "trace": 10,
+                "strategy": {"name": "text_shape_3d", "args": ["王-大"]}
+            },
+            {
+                "type": "launch_to", "pos": [0, 0, 80], "time": 2, "color": [1, 1, 0.2], "size": 0.6, "trace": 10,
+                "strategy": {"name": "text_shape_3d", "args": ["大-巨"]}
+            },
+            {
+                "type": "launch_to", "pos": [15, 15, 80], "time": 2, "color": [1, 1, 0.2], "size": 0.6, "trace": 10,
+                "strategy": {"name": "text_shape_3d", "args": ["牛-佬"]}
+            },
+            {
+                "type": "launch_to", "pos": [-30, -30, 65], "time": 2.5, "color": [0.6, 0.6, 1], "size": 0.6, "trace": 10,
+                "strategy": {"name": "text_shape_3d", "args": ["新-学"]}
+            },
+            {
+                "type": "launch_to", "pos": [-15, -15, 65], "time": 2.5, "color": [0.6, 0.6, 1], "size": 0.6, "trace": 10,
+                "strategy": {"name": "text_shape_3d", "args": ["年-业"]}
+            },
+            {
+                "type": "launch_to", "pos": [0, 0, 65], "time": 2.5, "color": [0.6, 0.6, 1], "size": 0.6, "trace": 10,
+                "strategy": {"name": "text_shape_3d", "args": ["快-有"]}
+            },
+            {
+                "type": "launch_to", "pos": [15, 15, 65], "time": 2.5, "color": [0.6, 0.6, 1], "size": 0.6, "trace": 10,
+                "strategy": {"name": "text_shape_3d", "args": ["乐-成"]}
+            }
+        ]],
+        [29.9, [
+            {
+                "type": "launch_to",
+                "repeat": 5,
+                "pos": {"min": [-60, -60, 70], "max": [60, 60, 90]},
+                "time": {"min": 1.5, "max": 5.5},
+                "color": "random",
+                "strategy": "standard"
+            },
+            {
+                "type": "launch_to",
+                "repeat": 5,
+                "pos": {"min": [-60, -40, 70], "max": [60, 40, 90]},
+                "time": {"min": 1.5, "max": 5.5},
+                "color": "random",
+                "strategy": "glitter"
+            },
+            {
+                "type": "launch_to",
+                "repeat": 5,
+                "pos": {"min": [-60, -40, 70], "max": [60, 40, 90]},
+                "time": {"min": 2.5, "max": 5.5},
+                "color": "random",
+                "strategy": "standard"
+            },
+            {
+                "type": "launch_to",
+                "repeat": 5,
+                "pos": {"min": [-60, -40, 70], "max": [60, 40, 90]},
+                "time": {"min": 3.5, "max": 5.5},
+                "color": "random",
+                "strategy": "heart"
+            }
+        ]],
+        [35.9, [
+            {
+                "type": "launch_to",
+                "repeat": 15,
+                "pos": {"min": [-60, -60, 70], "max": [60, 60, 90]},
+                "time": {"min": 2.5, "max": 6.5},
+                "color": "random",
+                "strategy": "standard"
+            }
+        ]],
+        [37.0, [
+            {
+                "type": "launch_to", "pos": [-30, 0, 80], "time": 2.5, "color": [1, 0.6, 0.6], "size": 0.6, "trace": 10,
+                "strategy": {"name": "text_shape_3d", "args": ["友"]}
+            },
+            {
+                "type": "launch_to", "pos": [-15, 0, 80], "time": 2, "color": [1, 0.6, 0.6], "size": 0.6, "trace": 10,
+                "strategy": {"name": "text_shape_3d", "args": ["谊"]}
+            },
+            {
+                "type": "launch_to", "pos": [0, 0, 70], "time": 2, "color": [1, 1, 0.6], "size": 0.6, "trace": 10,
+                "strategy": {"name": "text_shape_3d", "args": ["地"]}
+            },
+            {
+                "type": "launch_to", "pos": [15, 0, 70], "time": 2, "color": [1, 1, 0.6], "size": 0.6, "trace": 10,
+                "strategy": {"name": "text_shape_3d", "args": ["久"]}
+            },
+            {
+                "type": "launch_to", "pos": [30, 0, 60], "time": 2.5, "color": [0.6, 0.6, 1], "size": 0.6, "trace": 10,
+                "strategy": {"name": "text_shape_3d", "args": ["天"]}
+            },
+            {
+                "type": "launch_to", "pos": [45, 0, 60], "time": 2.5, "color": [0.6, 0.6, 1], "size": 0.6, "trace": 10,
+                "strategy": {"name": "text_shape_3d", "args": ["长"]}
+            }
+        ]],
+        [39.9, [
+            {
+                "type": "launch_to",
+                "repeat": 20,
+                "pos": {"min": [-60, -60, 70], "max": [60, 60, 90]},
+                "time": {"min": 2.5, "max": 6.5},
+                "color": "random",
+                "strategy": "standard"
+            }
+        ]],
+        [43.0, [
+            {
+                "type": "launch_to", "pos": [-30, -30, 80], "time": 2, "color": [0.6, 0.6, 1], "size": 0.6, "trace": 10,
+                "strategy": {"name": "text_shape_3d", "args": ["追-沐"]}
+            },
+            {
+                "type": "launch_to", "pos": [-15, -15, 80], "time": 2, "color": [1, 1, 0.2], "size": 0.6, "trace": 10,
+                "strategy": {"name": "text_shape_3d", "args": ["光-光"]}
+            },
+            {
+                "type": "launch_to", "pos": [0, 0, 80], "time": 2, "color": [0.6, 0.6, 1], "size": 0.6, "trace": 10,
+                "strategy": {"name": "text_shape_3d", "args": ["而-而"]}
+            },
+            {
+                "type": "launch_to", "pos": [15, 15, 80], "time": 2, "color": [0.6, 0.6, 1], "size": 0.6, "trace": 10,
+                "strategy": {"name": "text_shape_3d", "args": ["遇-行"]}
+            }
+        ]],
+        [50.0, [
+            {
+                "type": "launch_to",
+                "repeat": 15,
+                "pos": {"min": [-160, -160, 70], "max": [160, 160, 90]},
+                "time": {"min": 2.5, "max": 4.5},
+                "color": "random",
+                "strategy": "standard"
+            },
+            {
+                "type": "launch_to",
+                "repeat": 15,
+                "pos": {"min": [-160, -160, 70], "max": [160, 160, 90]},
+                "time": {"min": 2.5, "max": 4.5},
+                "color": "random",
+                "strategy": "standard_rc"
+            },
+            {
+                "type": "launch_to",
+                "repeat": 15,
+                "pos": {"min": [-160, -160, 70], "max": [160, 160, 90]},
+                "time": {"min": 2.5, "max": 4.5},
+                "color": "random",
+                "strategy": "heart"
+            },
+            {
+                "type": "launch_to",
+                "repeat": 15,
+                "pos": {"min": [-160, -160, 70], "max": [160, 160, 90]},
+                "time": {"min": 2.5, "max": 4.5},
+                "color": "random",
+                "strategy": "glitter"
+            }
+        ]],
+        [65.0, [{"type": "end"}]]
+    ],
+    "camera": [
+        {"time": 0.0, "pos": [0, -20, 25], "look_at": [0, 0, 40], "up": [0, 0, 1]},
+        {"time": 2.0, "pos": [0, -60, 65], "look_at": [0, 0, 40], "up": [0, 0, 1]},
+        {"time": 4.0, "pos": [0, -60, 65], "look_at": [0, 0, 65], "up": [0, 0, 1]},
+        {"time": 5.0, "pos": [-40, -40, 65], "look_at": [0, 0, 65], "up": [0, 0, 1]},
+        {"time": 6.0, "pos": [0, -60, 65], "look_at": [0, 0, 65], "up": [0, 0, 1]},
+        {"time": 9.0, "pos": [0, -40, 65], "look_at": [0, 0, 65], "up": [0, 0, 1]},
+        {"time": 11.0, "pos": [0, -60, 65], "look_at": [0, 0, 65], "up": [0, 0, 1]},
+        {"time": 13.0, "pos": [0, -60, 65], "look_at": [0, 0, 65], "up": [0, 0, 1]},
+        {"time": 13.39, "pos": [22.96, -55.43, 65], "look_at": [0, 0, 65], "up": [0, 0, 1]},
+        {"time": 13.78, "pos": [42.42, -42.42, 65], "look_at": [0, 0, 65], "up": [0, 0, 1]},
+        {"time": 14.17, "pos": [55.43, -22.96, 65], "look_at": [0, 0, 65], "up": [0, 0, 1]},
+        {"time": 14.57, "pos": [60, 0, 65], "look_at": [0, 0, 65], "up": [0, 0, 1]},
+        {"time": 14.96, "pos": [55.43, 22.96, 65], "look_at": [0, 0, 65], "up": [0, 0, 1]},
+        {"time": 15.35, "pos": [42.42, 42.42, 65], "look_at": [0, 0, 65], "up": [0, 0, 1]},
+        {"time": 15.74, "pos": [22.96, 55.43, 65], "look_at": [0, 0, 65], "up": [0, 0, 1]},
+        {"time": 16.14, "pos": [0, 60, 65], "look_at": [0, 0, 65], "up": [0, 0, 1]},
+        {"time": 16.53, "pos": [-22.96, 55.43, 65], "look_at": [0, 0, 65], "up": [0, 0, 1]},
+        {"time": 16.92, "pos": [-42.42, 42.42, 65], "look_at": [0, 0, 65], "up": [0, 0, 1]},
+        {"time": 17.31, "pos": [-55.43, 22.96, 65], "look_at": [0, 0, 65], "up": [0, 0, 1]},
+        {"time": 17.71, "pos": [-60, 0, 65], "look_at": [0, 0, 65], "up": [0, 0, 1]},
+        {"time": 18.10, "pos": [-55.43, -22.96, 65], "look_at": [0, 0, 65], "up": [0, 0, 1]},
+        {"time": 18.49, "pos": [-42.42, -42.42, 65], "look_at": [0, 0, 65], "up": [0, 0, 1]},
+        {"time": 18.88, "pos": [-22.96, -55.43, 65], "look_at": [0, 0, 65], "up": [0, 0, 1]},
+        {"time": 20.0, "pos": [-15, -120, 65], "look_at": [0, 0, 65], "up": [0, 0, 1]},
+        {"time": 20.5, "pos": [15, -120, 65], "look_at": [0, 0, 65], "up": [0, 0, 1]},
+        {"time": 21.5, "pos": [120, -15, 65], "look_at": [0, 0, 65], "up": [0, 0, 1]},
+        {"time": 23.0, "pos": [120, 15, 65], "look_at": [0, 0, 65], "up": [0, 0, 1]},
+        {"time": 27.0, "pos": [-30, -120, 65], "look_at": [0, 0, 65], "up": [0, 0, 1]},
+        {"time": 28.5, "pos": [15, -120, 65], "look_at": [0, 0, 65], "up": [0, 0, 1]},
+        {"time": 29.0, "pos": [150, 0, 65], "look_at": [0, 0, 65], "up": [0, 0, 1]},
+        {"time": 30.0, "pos": [150, 15, 65], "look_at": [0, 0, 65], "up": [0, 0, 1]},
+        {"time": 35.0, "pos": [80, 0, 65], "look_at": [0, 0, 65], "up": [0, 0, 1]},
+        {"time": 37.0, "pos": [60, 0, 65], "look_at": [0, 0, 65], "up": [0, 0, 1]},
+        {"time": 40.0, "pos": [-30, -120, 65], "look_at": [0, 0, 65], "up": [0, 0, 1]},
+        {"time": 42.5, "pos": [15, -120, 65], "look_at": [0, 0, 65], "up": [0, 0, 1]},
+        {"time": 46.0, "pos": [-30, -100, 65], "look_at": [0, 0, 65], "up": [0, 0, 1]},
+        {"time": 47.5, "pos": [15, -100, 65], "look_at": [0, 0, 65], "up": [0, 0, 1]},
+        {"time": 48.0, "pos": [150, 0, 65], "look_at": [0, 0, 65], "up": [0, 0, 1]},
+        {"time": 49.0, "pos": [150, 15, 65], "look_at": [0, 0, 65], "up": [0, 0, 1]},
+        {"time": 55.0, "pos": [300, 0, 300], "look_at": [0, 0, 0], "up": [0, 0, 1]},
+        {"time": 65.0, "pos": [0, 0, 0], "look_at": [0, 0, 0], "up": [0, 0, 1]}
+    ]
+}
