@@ -13,7 +13,6 @@ A spectacular 3D firework show powered by Panda3D, featuring script‑driven per
 
 
 ![Overview](assets/image/demo1.png)
-![Text](assets/image/demo2.png)
 ![Interactive](assets/image/demo3.png)
 ![Bloom](assets/image/demo4.png)
 ![Overview](assets/image/demo5.png)
